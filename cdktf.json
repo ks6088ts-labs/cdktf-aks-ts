@@ -6,6 +6,18 @@
   "terraformProviders": [],
   "terraformModules": [],
   "context": {
+    "dev": {
+      "envName": "Development",
+      "aksStack": {
+        "location": "japaneast"
+      }
+    },
+    "prod": {
+      "envName": "Production",
+      "aksStack": {
+        "location": "japaneast"
+      }
+    },
     "excludeStackIdFromLogicalIds": "true",
     "allowSepCharsInLogicalIds": "true"
   }
